@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "34556088739",
+    "project_id": "issproject-4d343",
+    "storage_bucket": "issproject-4d343.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34556088739:android:8f54a74d01789799368a16",
+        "android_client_info": {
+          "package_name": "com.example.iss_2fa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx-ciHOK-ihr7gOzagynkWRV_JVHxVyIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

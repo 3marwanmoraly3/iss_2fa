@@ -12,13 +12,7 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: false,
-      body: Container(
-        decoration: const BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage("assets/login/images/bkg.png"),
-            fit: BoxFit.cover,
-          ),
-        ),
+      body: Padding(
         padding: const EdgeInsets.only(left: 20, top: 30, right: 20),
         child: BlocProvider(
           create: (_) => LoginBloc(

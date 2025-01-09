@@ -307,7 +307,7 @@ class AuthenticationRepository {
         CollectionReference users =
             FirebaseFirestore.instance.collection('users');
 
-        if (querySnapshot.docs[0]["LoginAttempts"] < 5) {
+        if (querySnapshot.docs[0]["LoginAttempts"] < 3) {
           final newLoginAttempts = querySnapshot.docs[0]["LoginAttempts"] + 1;
           await users.doc(querySnapshot.docs[0].id).update({
             'LoginAttempts': newLoginAttempts,
